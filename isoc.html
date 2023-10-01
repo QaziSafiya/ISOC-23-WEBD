@@ -7,19 +7,29 @@
   <link rel="icon" type="image/png" href="./Assets/Logo.png" sizes="64x64">
   <link rel="stylesheet" href="./isoc.css">
   <title>ISOCeum | Home</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+  href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;600&family=Gwendolyn&family=Martel:wght@300&family=Nunito+Sans&family=Nunito:ital,wght@0,300;0,400;1,300;1,500&family=Quintessential&display=swap"
+  rel="stylesheet"
+/>
 </head>
 
-<body>
+<style>
+  
+</style>
+<body class="head">
   <!-- navbar -->
   
     <header class="header">
-      <h1 class="logo"><a href="#"><span style="color:#7b00d3; font-size: 25pt;">ISOC</span>eum</a></h1>
-      <ul class="main-nav">
-        <li><a href="#" class="active">Home</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Tickets & Visit</a></li>
-        <li><a href="#">Art & Stories</a></li>
-        <li><a href="#">Contact Us</a></li>
+     <h1 class="logo" id="heading">ISOC<span>eum</span></h1>
+   
+      <ul >
+        <li id="toggledark">🌔</li>
+        <li>Home</li>
+        <li>Gallery</li>
+        <li>Tickets & Visit</li>
+        <li>Art & Stories</li>
+        <li>Contact Us</li>
         <li class="language-option">
           <div class="dropdown">
             <span>Language | <strong>EN</strong></span>
@@ -37,314 +47,258 @@
 
 
   <!-- hero -->
-  <section>
+ 
     <div class="hero-sec">
       <div id="hero-headline">
+       
+       
         <div class="main">
           <h1>The ISOC-eum </h1>
+        
+        <div class="giphy">
+          <img  src="https://media.giphy.com/media/cqxl6xF0TgOqCAoYdt/giphy.gif" alt="">
+        </div>
             </div>
-          </h1>
+           
+         
         </div>
       </div>
     </div>
-  </section>
+
 
   <!-- ongoing exhibitions -->
-  <section>
-    <div class="ongoing-exhib">
-      <p> ONGOING EXHIBITIONS</p>
-    </div>
-    <div class="ongoing-exhib-grid">
-      <div class="ongoing-exhib-grid-item oe-flex">
-        <a href="page.html" target="_blank">
-        <img class="oe-flex-item" src="./Ongoing Exhib/Artifact-1.jpg">
-        <h3 class="oe-flex-item">Timeless Treasures</h3>
-        <p class="oe-flex-item">
+
+  
+   <div class="exibition">
+      <div class="first">
+        <p> ONGOING EXHIBITIONS</p>
+     
+      </div>
+    <div class="second">
+     <a href="./page.html"> <div class="seconddiv">
+
+      <img src="./Ongoing Exhib/Artifact-1.jpg" alt="">
+
+      <div class="description">
+        <h3 >Timeless Treasures</h3>
+      <p >
+        Day | Date | Time | Venue
+      </p>
+      </div>
+    </div></a>
+      <a href="./page.html"><div class="seconddiv"><img src="./Ongoing Exhib/Artifact-2.jpg" alt="">
+        <div class="description">
+          <h3 >Antique Splendours</h3>
+          <p >
+            Day | Date | Time | Venue
+          </p>
+        </div></div>
+        </a>
+     <a href="./page.html"> <div class="seconddiv"><img src="./Ongoing Exhib/Artifact-3.jpg" alt="">
+      <div class="description2">
+        <h3 >Relics Unveiled</h3>
+        <p >
           Day | Date | Time | Venue
         </p>
-      </div>
-      <div class="ongoing-exhib-grid-item oe-flex">
-        <!-- <a href="page.html" target="_blank"> -->
-        <img class="oe-flex-item" src="./Ongoing Exhib/Artifact-2.jpg">
-        <h3 class="oe-flex-item">Antique Splendours</h3>
-        <p class="oe-flex-item">
-          Day | Date | Time | Venue
-        </p>
-      </div>
+      </div></div></a>
+    </div>
+    </div>
 
-      <div class="ongoing-exhib-grid-item oe-flex">
-        <a href="page.html" target="_blank">
-        <img class="oe-flex-item" src="./Ongoing Exhib/Artifact-3.jpg">
-        <h3 class="oe-flex-item">Relics Unveiled</h3>
-        <p class="oe-flex-item">
-          Day | Date | Time | Venue
-        </p>
+
+
+    <!-- section of Gallery -->
+
+  
+    <div class="gallery-section">
+      <div class="title-gallery">
+        <p>OUR EXHIBITION GALLERY</p>
       </div>
-    </div>
-  </section>
+      <div class="gallery ">
 
-  <!-- our exhibition gallery -->
-  <section>
-    <div class="our-gallery">
-      <p style="color: #764c03; padding-top: 40px;">OUR EXHIBITION GALLERY</p>
-    </div>
-    <div class="our-gallery our-gallery-container">
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-1.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-2.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-3.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-4.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-5.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-1.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-2.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-3.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-4.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-5.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-1.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-2.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-3.jpg"></a>
-      <a href="#"><img class="our-gallery-img" src="./Our Gallery/Img-4.jpg"></a>
-    </div>
-    <div class="our-gallery our-gallery-btn" style="margin-top: 0;">
-      <button id="explore-gallery">Explore Gallery</button>
-    </div>
-  </section>
 
-  <!-- artisan about -->
-  <section>
-    <div class="artisan-hub">
-      <p>ARTISAN EXPLORATION HUB</p>
-    </div>
-    <div class="artisan-hub-info-grid">
-      <div class="artisan-hub-img">
+
+
+
+
+
+
+        <marquee behavior="scroll" direction="up" scrollamount="7"><div><img src="./Our Gallery/Img-1.jpg" alt=""></div></marquee>
+<marquee behavior="scroll" direction="right" scrollamount="7"><div> <img src="./Our Gallery/Img-2.jpg" alt=""></div></marquee>
+<marquee behavior="scroll" direction="up" scrollamount="7"> <div class="box" id="box3"><img src="./Our Gallery/Img-3.jpg" alt=""></div></marquee>
+<marquee behavior="scroll" direction="down" scrollamount="7">        <div class="box" id="box4"><img src="./Our Gallery/Img-4.jpg" alt=""></div></marquee>
+      
+<marquee behavior="scroll" direction="left" scrollamount="7">  <div class="box" id="box5"><img src="./Our Gallery/Img-5.jpg" alt=""></div>
+</marquee>
+<marquee behavior="scroll" direction="down" scrollamount="7">  <div class="box" id="box6"><img src="./Our Gallery/Img-1.jpg" alt=""></div>
+</marquee>
+      
+<marquee behavior="scroll" direction="down" scrollamount="7"> <div class="box" id="box7"><img src="./Our Gallery/Img-2.jpg" alt=""></div>
+ 
+</marquee>
+
+<marquee behavior="scroll" direction="up" scrollamount="7"><div class="box" id="box8"><img src="./Our Gallery/Img-3.jpg" alt=""></div>
+</marquee>
+
+<marquee behavior="scroll" direction="right" scrollamount="7"> <div class="box" id="box9"><img src="./Our Gallery/Img-4.jpg" alt=""></div>
+
+</marquee>
+
+<marquee behavior="scroll" direction="up" scrollamount="7"> <div class="box" id="" ><img src="./Our Gallery/Img-5.jpg" alt=""></div> 
+
+</marquee>
+
+<marquee behavior="scroll" direction="down" scrollamount="7"> <div class="box" id="" ><img src="./Our Gallery/Img-1.jpg" alt=""></div>
+</marquee>
+
+<marquee behavior="scroll" direction="left" scrollamount="7">  <div class="box" id="" ><img src="./Our Gallery/Img-2.jpg" alt=""></div>
+
+</marquee>
+
+
+       
+      </div>
+      <div class="button">
+        <button class="explore-btn" >Explore Gallery</button>
+      </div>
+      
+    </div> 
+
+   
+
+    <!-- Artision about -->
+     <div class="about">
+      <div class="title-about">
+        <p>ARTISAN EXPLORATION HUB</p>
+      </div >
+
+     <div class="about-section">
+      <div class="about-img">
         <img src="./Artisan/Artisan-1.jpg">
       </div>
-      <div class="artisan-hub-info-flexbox">
-        <div class="artisan-info">
-          <img src="./Artisan/Info-1.png">
-          <a href="./artandstories.html">
-            <p>Learn about our local artisans</p>
-        </div>
-        <div class="artisan-info-details">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Sed at facilisis odio. Vestibulum tincidunt, nulla
-            erat viverra tellus.
-          </p>
-        </div></a>
+
+      <div class="about-description">
+      <div class="about-artesion"><img src="./Artisan/Info-1.png" alt="">
+      <h3>Learn about local artesion</h3></div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam est fugiat, corrupti accusantium incidunt sequi distinctio odio quaerat iste necessitatibus explicabo suscipit facere vitae sit assumenda! Cupiditate tempore unde doloremque?
+        Consequuntur voluptate porro nisi neque, non libero deserunt sequi placeat saepe perspiciatis eos odio deleniti non accusantium nemo tempora laudantium libero, in est? Corporis?</p>
       </div>
-    </div>
-  </section>
-
-  <!-- upcoming exhibitions -->
-  <section class="upcoming">
-    <div class="upcoming-exhib">
-      UPCOMING EXHIBITIONS
-    </div>
-    <div class="row">
-      <a href="page.html" target="_blank">
-        <div class="column">
-          <div class="card">
-            <img src="./Upcoming/Upcoming-1.jpg" style="width:100%">
-            <h2 class="upcoming-exhib-about">Regal Reverie</h2>
-            <p class="small-intro"> Small Intro</p>
-            <p>Day | Date | Time | Venue</p>
-          </div>
-        </div>
+     </div>
+    </div> 
 
 
-        <a href="page.html" target="_blank">
-          <div class="column">
-            <div class="card">
-              <img src="./Upcoming/Upcoming-2.jpg" style="width:100%">
-              <h2 class="upcoming-exhib-about">Gilded Treasures</h2>
-              <p class="small-intro"> Small intro</p>
-              <p>Day | Date | Time | Venue</p>
-            </div>
-          </div>
 
-          <a href="page.html" target="_blank">
-            <div class="column">
-              <div class="card">
-                <img src="./Upcoming/Upcoming-3.jpg" style="width:100%">
-                <h2 class="upcoming-exhib-about">Timeless Splendour</h2>
-                <p class="small-intro"> Small intro</p>
-                <p>Day | Date | Time | Venue</p>
-              </div>
-            </div>
 
-  </section>
+    
 
-  <!-- our newsletter -->
-  <section id="newsletter">
-    <div class="box">
-      <img src="https://lh3.google.com/u/0/d/1-WTX2Kw4ZlgLnwT9gYyFOxVXowT9eS-t=w1375-h881-iv1" alt="" />
-      <h2>Subscribe to our Newsletter</h2>
-      <p>
-        Our weekly newsletter provides you with the latest exhibitions on artifacts,
-        a true delight for the art & culture enthusiasts.
-      </p>
-      <div class="form-control">
-        <input type="text" class="input" placeholder="Enter e-mail adress" />
-        <button class="btn">Subscribe</button>
-      </div>
-    </div>
-    <button class="floating-btn">
-      Get in Touch
-    </button>
-  </section>
+    <!-- Upcoming exibition -->
 
-  <footer class="footer">
-    <!-- Grid container -->
-    <div class="footer-container">
-      <!-- Section: Social media -->
-      <section class="social-media">
-        <!-- Facebook -->
-        <a class="btn btn-social btn-facebook" href="#!" role="button">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <!-- Twitter -->
-        <a class="btn btn-social btn-twitter" href="#!" role="button">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <!-- Google -->
-        <a class="btn btn-social btn-google" href="#!" role="button">
-          <i class="fab fa-google"></i>
-        </a>
-        <!-- Instagram -->
-        <a class="btn btn-social btn-instagram" href="#!" role="button">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <!-- Linkedin -->
-        <a class="btn btn-social btn-linkedin" href="#!" role="button">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-        <!-- Github -->
-        <a class="btn btn-social btn-github" href="#!" role="button">
-          <i class="fab fa-github"></i>
-        </a>
-      </section>
-      <!-- Section: Social media -->
+   <body class="upcoming">
+      <div class="upcoming-exhib">
+       <p> UPCOMING EXHIBITIONS</p>
+      </div> 
 
-      <!-- Section: Newsletter Form -->
-      <section class="newsletter">
-        <form action="">
-          <!--Grid row-->
-          <div class="newsletter-row">
-            <!--Grid column-->
-            <div class="col-auto newsletter-text">
-              <p class="pt-2">
-                <strong>Sign up for our newsletter</strong>
+       <!-- Seacrch and filter functionality -->
+
+  <div class="search-div">
+   <div class="contain">
+    <div class="search">
+      <input type="text" placeholder="Search" id="find" onkeyup="filter()">
+      <i class="fa fa-search" aria-hidden="true"></i>
+     </div>
+     <div class="buttoncontainer">
+       <button class="btnselect active" data-filter="all">All</button>
+       <button class="btnselect" data-filter="date">Date</button>
+       <button class="btnselect" data-filter="time">Time</button>
+       <button class="btnselect" data-filter="artist">Artist</button>
+     </div> 
+   </div>
+   </div>
+      <div class="row">
+        
+          <div class="column date">
+            <div class="card" >
+              <img src="./Upcoming/Upcoming-1.jpg" style="width:100%">
+             <div class="details">
+              <h2 class="upcoming-exhib-about">Regal Reverie</h2>
+              <p class="small-intro"> Lorem ipsum dolor sit.lorem lorem
+
               </p>
+              <p>Day | Date | Time | Venue</p>
+             </div>
             </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-md-5 col-12">
-              <!-- Email input -->
-              <div class="form-outline form-white mb-4">
-                <input
-                  type="email"
-                  id="newsletter-email"
-                  class="form-control"
-                />
-                <label class="form-label" for="newsletter-email"
-                  >Email address</label
-                >
+          </div>
+  
+  
+       
+            <div class="column time">
+              <div class="card" data-name="time">
+                <img src="./Upcoming/Upcoming-2.jpg" style="width:100%">
+               <div class="details">
+                <h2 class="upcoming-exhib-about">Gilded Treasures</h2>
+                <p class="small-intro"> Lorem ipsum dolor sit.lorem lorem </p>
+                <p>Day | Date | Time | Venue</p>
+               </div>
               </div>
             </div>
-            <!--Grid column-->
+  
+           
+              <div class="column artist">
+                <div class="card" data-name="date">
+                  <img src="./Upcoming/Upcoming-3.jpg" style="width:100%">
+                 <div class="details">
+                  <h2 class="upcoming-exhib-about">Timeless Splendour</h2>
+                  <p class="small-intro"> Lorem ipsum dolor sit.</p>
+                  <p>Day | Date | Time | Venue</p>
+                 </div>
+                </div>
 
-            <!--Grid column-->
-            <div class="col-auto newsletter-button">
-              <!-- Submit button -->
-              <button type="submit" class="btn btn-outline-light mb-4">
-                Subscribe
-              </button>
-            </div>
-            <!--Grid column-->
-          </div>
-          <!--Grid row-->
-        </form>
-      </section>
-      <!-- Section: Newsletter Form -->
+              </div>
+    
+    </div> 
 
-      <!-- Section: Text -->
-      <section class="footer-text">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-          distinctio earum repellat quaerat voluptatibus placeat nam, commodi
-          optio pariatur est quia magnam eum harum corrupti dicta, aliquam
-          sequi voluptate quas.
-        </p>
-      </section>
-      <!-- Section: Text -->
+    <!-- footer -->
 
-      <!-- Section: Footer Links -->
-      <section class="footer-links">
-        <!--Grid row-->
-        <div class="row1">
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
-            <ul class="list-unstyled mb-0">
-              <li><a href="#!" class="footer-link">Link 1</a></li>
-              <li><a href="#!" class="footer-link">Link 2</a></li>
-            </ul>
-          </div>
-          <!--Grid column-->
-        </div>
+<div class="footer">
+  <div class="grid-footer">
+    <div class="box1">
+      <h3>Art & Craft</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti minus qui mollitia cupiditate nam eaque debitis! Facere voluptatem molestiae nemo debitis incidunt deleniti beatae, in, aspernatur a reprehenderit dolores aliquam?</p>
+      <div class="icons">
+        <li><i class="fa-brands fa-facebook"></i></li>
+        <li><i class="fa-brands fa-whatsapp"></i></li>
+        <li><i class="fa-brands fa-instagram"></i></li>
+        <li><i class="fa-brands fa-twitter"></i></li>
+       
+      
+      </div>
+      <p style="margin-top: 20px;">siddiquisafiya69@gmail.com</p>
 
-        <div class="row2">
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
-            <ul class="list-unstyled mb-0">
-              <li><a href="#!" class="footer-link">Link 1</a></li>
-              <li><a href="#!" class="footer-link">Link 2</a></li>
-            </ul>
-          </div>
-          <!--Grid column-->
-        </div>
-
-        <div class="row3">
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
-            <ul class="list-unstyled mb-0">
-              <li><a href="#!" class="footer-link">Link 1</a></li>
-              <li><a href="#!" class="footer-link">Link 2</a></li>
-            </ul>
-          </div>
-          <!--Grid column-->
-        </div>
-
-        <div class="row4">
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
-            <ul class="list-unstyled mb-0">
-              <li><a href="#!" class="footer-link">Link 1</a></li>
-              <li><a href="#!" class="footer-link">Link 2</a></li>
-            </ul>
-          </div>
-          <!--Grid column-->
-        </div>
-        <!--Grid row-->
-      </section>
-      <!-- Section: Footer Links -->
     </div>
-    <!-- Grid container -->
-
-    <!-- Copyright -->
-    <div class="copyright">
-      © 2020 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/"
-        >MDBootstrap.com</a
-      >
+    <div class="box2"><div class="box3">
+      <p>Company</p>
+      <li>About Us</li>
+      <li>Our Services</li>
+      <li>Privacy Policy</li>
+    
     </div>
-    <!-- Copyright -->
-  </footer>
-  <script src="./isoc.js"></script>
+      <div class="box3"><p>Online Exibition</p>
+        <li>Show</li>
+        <li>Watch</li>
+        <li>Present</li>
+        <li>Buy</li>
+      <li>Sell</li></div>
+    </div>
+    
+    <div class="box4">
+      <h2>Suscribe our Newsletter</h2>
+      <p>Our daily news letter provides you with the latest exibition and artifacts , a true delight of the Art &Culture enthusiasts</p>
+      <input type="text" placeholder="Enter the email">
+      <button class="footer-btn">Suscribe</button>
+    </div>
+  </div>
+</div>
+<script src="isoc.js"></script>
 </body>
-
 </html>
+
+ 
