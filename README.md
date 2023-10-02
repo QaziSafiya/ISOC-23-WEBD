@@ -22,6 +22,7 @@ Welcome to the ISOC'23 Web Development Track! In this open source competition, y
 
 7. **Search and Filter Functionality:** Enhance user experience by implementing robust search and filter options. Allow users to effortlessly discover exhibitions based on criteria such as date, location, category, or artist.
 
+![Screenshot 2023-10-02 084930](https://github.com/QaziSafiya/ISOC-23-WEBD/assets/143307549/64ecf01d-6ed3-44cc-9563-cc90d125c932)
 
 ## FULL RESPONSIVE
 
