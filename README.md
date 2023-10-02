@@ -18,12 +18,10 @@ Welcome to the ISOC'23 Web Development Track! In this open source competition, y
 
 6. **Exhibition Categorization:** Implement a robust filtration system for categorizing artifacts, allowing users to explore and discover artifacts based on type, chronology, rarity, and other pertinent criteria.
 
-7. **Contact Us:** Establish a "Contact Us" section equipped with a robust database for efficiently managing inquiries and user feedback.
 
 
-8. **Search and Filter Functionality:** Enhance user experience by implementing robust search and filter options. Allow users to effortlessly discover exhibitions based on criteria such as date, location, category, or artist.
+7. **Search and Filter Functionality:** Enhance user experience by implementing robust search and filter options. Allow users to effortlessly discover exhibitions based on criteria such as date, location, category, or artist.
 
 
 ## FULL RESPONSIVE
-## ANIMATIONS USING GSAP
-## VALIDATION CONTACT FORM
+
